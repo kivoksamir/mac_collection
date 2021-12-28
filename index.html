@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+<div class="container">
+    <div class="navbar">
+        <img src="image/apple.png" class="logo">
+        
+        <nav class="nav">
+
+            <ul id="menuList">
+                <li><a href="#">home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">promo</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">connectUs</a></li>
+            </ul>
+
+        </nav>
+        <img src="image/square.png" class="menu_logo"  onclick="myfunction()">
+        
+    </div>
+
+    <div class="row">
+        <div class="col_1">
+            <h1>You can buy Online</h1>
+            <h3><spam class="text_in">Our services</spam></h3>
+            <br/>
+            <p>Lorem ipsum dolor,<br/> sit amet consectetur adipisicing elit.<br/> 
+            Cumque doloremque delectus quidem<br/> commodi quis a architecto 
+            voluptate eaque, quos</p>
+                <br/>
+                <hr>
+                <br/>
+                
+                <div class="addtocart"> Add to Cart  <img src="image/cart_4.png"></div>
+                <button type="button">BUY NOW</button>
+                
+
+        </div>
+
+        <div class="col_2">
+         <img src="image/01.png" class="products">  
+            <div class="color_box"></div> 
+        </div>
+        
+        
+
+    </div>
+    
+
+ 
+        <div class="connect">
+        <img src="image/social.png" class="social">
+        <img src="image/facebook.png" class="fb">
+        <img src="image/instagram.png" class="inst">
+        <img src="image/twitter.png" class="twit">
+        <img src="image/youtube.png" class="tube">
+
+    </div>
+        
+  
+
+</div>
+
+<script>
+
+    var menu_list = document.getElementById("menuList");
+
+    menu_list.style.maxHeight = "0px";
+
+    function myfunction(){
+
+        if(menu_list.style.maxHeight=="0px")
+        {
+            menu_list.style.maxHeight="130px";
+        }
+
+        else
+        {
+            menu_list.style.maxHeight="0px";
+        }
+    }
+
+</script>
+
+</body>
+</html>
